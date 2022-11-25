@@ -10,7 +10,7 @@ pipeline {
         dockerHubRegistryCredential = '634c3ce0-9c39-469b-86f3-3836d26d2edf'
         dockerImageName = 'service-gateway'
         gitCredentialId = '6261fc8c-759c-4d26-b6ff-29666b2a5625'
-        gitSrcUrl = 'git@github.com:KSWA-SWEEP/Formduo-Gateway-Service.git'
+        gitSrcUrl = 'git@github.com:KSWA-SWEEP/Formduo-Gateway.git'
         gitManifestUrl = 'git@github.com:KSWA-SWEEP/k8s-manifest.git'
     }
 
