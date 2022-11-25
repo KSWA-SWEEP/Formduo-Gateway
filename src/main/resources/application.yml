@@ -11,7 +11,7 @@ spring:
   cloud:
     config: # Ex) `http://service-config/auth/dev`
       name: gateway # config name
-      profile: ${SPRING_PROFILES_ACTIVE:dev} # config profile
+      profile: ${SPRING_PROFILES_ACTIVE:dev}
 
   rabbitmq: # RabbitMQ 관련 설정
     host: rabbitmq
